@@ -1,6 +1,6 @@
 @extends('web.site.app')
 
-@section('tittle,Major')
+@section('tittle','Home')
 
 @section('content')
         <div class="container-fluid bg-blue text-white pt-3">

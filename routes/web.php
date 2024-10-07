@@ -16,10 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::view('major', 'web.site.pages.major');
-Route::view('home', 'web.site.pages.home');
-Route::view('history', 'web.site.pages.history');
-Route::view('login', 'web.site.pages.login');
-Route::view('register', 'web.site.pages.register');
-Route::view('doctor', 'web.site.pages.doctors.index');
-Route::view('doctor-book', 'web.site.pages.doctors.doctor');
+Route::view('major', 'web.site.pages.major')->name('major');
+Route::view('home', 'web.site.pages.home')->name('home');
+Route::view('history', 'web.site.pages.history')->name('history');
+Route::view('login', 'web.site.pages.login')->name('login');
+Route::view('register', 'web.site.pages.register')->name('register');
+Route::view('contact', 'web.site.pages.contact')->name('contact');
+Route::view('doctor', 'web.site.pages.doctors.index')->name('doctors.index');
+Route::view('doctor-book', 'web.site.pages.doctors.doctor')->name('doctor');

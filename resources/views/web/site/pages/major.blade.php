@@ -1,6 +1,6 @@
 @extends('web.site.app')
 
-@section('tittle,Major')
+@section('tittle','Major')
 
 @section('content')
     <div class="container">

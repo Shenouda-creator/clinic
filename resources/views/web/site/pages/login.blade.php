@@ -1,6 +1,6 @@
 @extends('web.site.app')
 
-@section('tittle,Major')
+@section('tittle','Login')
 
 @section('content')
     <div class="container">
@@ -24,7 +24,7 @@
                     <button type="submit" class="btn btn-primary">Login</button>
                 </form>
                 <div class="d-flex justify-content-center gap-2 flex-column flex-lg-row flex-md-row flex-sm-column">
-                    <span>don't have an account?</span><a class="link" href="./register.html">create account</a>
+                    <span>don't have an account?</span><a class="link" href="{{route('register')}}">create account</a>
                 </div>
             </div>
     </div>
